@@ -21,7 +21,7 @@ authors:
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net
     twitter: https://twitter.com/Noberg4
-
+    description: "M.Sc Student in comuter science and web developer"
 # Plugins
 plugins:
   - jekyll-paginate
