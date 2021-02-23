@@ -1,7 +1,7 @@
 # Site
 name: "Noah Öberg"
 title: "Noah Öberg"
-description: "Computer science and web development related articles"
+description: "Computer science and web development"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
