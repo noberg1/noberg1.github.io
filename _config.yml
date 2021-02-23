@@ -6,8 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
 google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+disqus: 'noahoberg'
 include: ["_pages"]
 permalink: /:title/
 
@@ -17,9 +16,7 @@ authors:
     name: Noah
     display_name: Noah
     avatar: assets/images/noah-2.jpg
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
+    web: https://www.noahoberg.com
     twitter: https://twitter.com/Noberg4
     description: "M.Sc Student in computer science & web developer"
 # Plugins
