@@ -5,6 +5,7 @@ author: Noah
 categories: [ Django, Web development ]
 tags: [django, python]
 image: assets/images/django-version.png
+featured: true
 description: "This is how you check what version of Django you have installed"
 ---
 We sometimes wonder what version of a particular software we have currently installed. Unfortunately, it is not always the same procedure when using different software. 
