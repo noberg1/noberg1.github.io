@@ -14,7 +14,7 @@ One of the biggest struggles most new java developers are facing is how to creat
 
 First of all, you will need to install the JDK-version of your choice. I am doing this on a Ubuntu machine(20.04) but the process should be almost the same for all UNIX-like systems. If you are on windows you can easily download and install your version of choice.
 
-##Installing Open-JKD on ubuntu 20.04
+## Installing Open-JKD on ubuntu 20.04
 If you are running Ubuntu you can do the following and if you already have JDK installed or are using another OS you can skip the following part and go straight to the compiling part. 
 
 To install Open-jdk 8 you just run the following commands in the terminal:
@@ -35,7 +35,7 @@ OpenJDK Runtime Environment (build 1.8.0_242-b09)
 OpenJDK 64-Bit Server VM (build 25.242-b09, mixed mode)
 ```
 
-##Creating the jar file
+## Creating the jar file
 
 Now I will show you how to generate a jar file for your project. 
 
@@ -49,7 +49,7 @@ javac myClass.java
 ```
 Change myClass.java to the name of your class. You will now see that the .class file was generated, in my case myClass.class was generated. 
 
-###Step 2. Create a manifest
+### Step 2. Create a manifest
 Next, we need to create a manifest file and add our entry-class to it. This tells the program where our main-method is so it knows where to start from. 
 
 Create a new file, name it manifest.txt, and add the following content:
@@ -58,7 +58,7 @@ Main-Class: myClass
 ```
 Where myClass is the .class file containing my main-method. Change it to your class containing your main-method.
 
-###Step 3. Create the jar file
+### Step 3. Create the jar file
 Now when we have compiled our class and made a manifest the last step is to create the actual jar. You do this by typing:
 ```
 $ jar -cvfm myJar.jar manifest.txt myClass.class
