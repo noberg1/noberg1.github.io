@@ -3,6 +3,10 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import './assets/css/main.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'; import
+'bootstrap-css-only/css/bootstrap.min.css'; import
+'mdbreact/dist/css/mdb.css';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -32,6 +36,7 @@ const App = () => {
   }, [location]);
 
   return (
+    
     <ScrollReveal
       ref={childRef}
       children={() => (

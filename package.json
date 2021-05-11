@@ -1,26 +1,33 @@
 {
-  "name": "open-react-template",
+  "name": "Bufferleaf website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://noberg1.github.io",
   "dependencies": {
+    "bootstrap": "^5.0.0",
     "classnames": "^2.2.6",
+    "emailjs-com": "^2.6.4",
     "lodash": "^4.17.15",
+    "mdbreact": "^5.0.2",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "react-ui-cards": "^2.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cruip/open-react-template.git"
+    "url": "https://github.com/noberg1/noberg1.github.io.git"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +44,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }

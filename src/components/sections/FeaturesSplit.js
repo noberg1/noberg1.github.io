@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Våra tjänster',
+    paragraph: 'Vi erbjuder dig ett brett utbud av olika utvecklingstjänster, allt från en simpel hemsida till ett avancerat affärsystem eller mobilapplikation. Bufferleaf drivs av två stycken blivande civilingenjörer inom teknisk datavetenskap.'
   };
 
   return (
@@ -60,20 +60,20 @@ const FeaturesSplit = ({
       className={outerClasses}
     >
       <div className="container">
-        <div className={innerClasses}>
+        <div className={innerClasses} id="tjanster">
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Android och Iphone
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Apputveckling
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Vi hjälper dig med allt från idé till färdig produkt. Självklart skapar vi både en IOS och Android app utan extra kostnad.
                   </p>
               </div>
               <div className={
@@ -83,23 +83,21 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
+                  src={require('./../../assets/images/app.png')}
+                  alt="Features split 01" />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Oberoende av plattform
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Mjukvaruutveckling
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Vi bygger även annan mjukvara än enbart appar. Det spelar ingen roll om du riktar dig mot MacOS, Windows eller Linux.
                   </p>
               </div>
               <div className={
@@ -109,23 +107,21 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
+                  src={require('./../../assets/images/mjuk.png')}
+                  alt="Features split 02"/>
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Färdig CMS eller egenutvecklad?
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Webbutveckling
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Vi driver även webbyrån Sino Media där vi arbetar med webbutveckling, sökmotoroptimering och digital marknadsföring. Vi kan både utveckla en simpel sida i wordpress eller rent av ta fram en egen CMS åt ditt företag.
                   </p>
               </div>
               <div className={
@@ -135,10 +131,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} />
+                  src={require('./../../assets/images/webb.png')}
+                  alt="Features split 03"/>
               </div>
             </div>
 
