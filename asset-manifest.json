@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.909346df.chunk.css",
-    "main.js": "/static/js/main.2159b05b.chunk.js",
-    "main.js.map": "/static/js/main.2159b05b.chunk.js.map",
+    "main.css": "/static/css/main.23b2edf4.chunk.css",
+    "main.js": "/static/js/main.720a1291.chunk.js",
+    "main.js.map": "/static/js/main.720a1291.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.591c3503.js",
     "runtime-main.js.map": "/static/js/runtime-main.591c3503.js.map",
     "static/css/2.9e76cc0e.chunk.css": "/static/css/2.9e76cc0e.chunk.css",
-    "static/js/2.f99d4fad.chunk.js": "/static/js/2.f99d4fad.chunk.js",
-    "static/js/2.f99d4fad.chunk.js.map": "/static/js/2.f99d4fad.chunk.js.map",
+    "static/js/2.ada42ba3.chunk.js": "/static/js/2.ada42ba3.chunk.js",
+    "static/js/2.ada42ba3.chunk.js.map": "/static/js/2.ada42ba3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a7405030d44e619870646320819b2a9e.js": "/precache-manifest.a7405030d44e619870646320819b2a9e.js",
+    "precache-manifest.6456c3456daa8908d3e5f3743c908efd.js": "/precache-manifest.6456c3456daa8908d3e5f3743c908efd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9e76cc0e.chunk.css.map": "/static/css/2.9e76cc0e.chunk.css.map",
-    "static/css/main.909346df.chunk.css.map": "/static/css/main.909346df.chunk.css.map",
-    "static/js/2.f99d4fad.chunk.js.LICENSE.txt": "/static/js/2.f99d4fad.chunk.js.LICENSE.txt",
+    "static/css/main.23b2edf4.chunk.css.map": "/static/css/main.23b2edf4.chunk.css.map",
+    "static/js/2.ada42ba3.chunk.js.LICENSE.txt": "/static/js/2.ada42ba3.chunk.js.LICENSE.txt",
     "static/media/ales_brews_logo_rgb_xsmall.png": "/static/media/ales_brews_logo_rgb_xsmall.21d17220.png",
     "static/media/app.png": "/static/media/app.af95d557.png",
     "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/beerstudio-logo.png": "/static/media/beerstudio-logo.89260182.png",
+    "static/media/beerstudio-logo.png": "/static/media/beerstudio-logo.c1c83bc3.png",
     "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
     "static/media/all.min.css": "/static/media/fa-solid-900.e8a427e1.woff2",
     "static/media/feature-tile-icon-01.svg": "/static/media/feature-tile-icon-01.0f9928d7.svg",
@@ -29,7 +29,7 @@
     "static/media/fuel-logo.png": "/static/media/fuel-logo.51bdb0ac.png",
     "static/media/korpen-logo.png": "/static/media/korpen-logo.2e9ecb6a.png",
     "static/media/logo-sagolika.png": "/static/media/logo-sagolika.23cc8a32.png",
-    "static/media/logo-ufc.png": "/static/media/logo-ufc.e5e4e5ab.png",
+    "static/media/logo-ufc.png": "/static/media/logo-ufc.a5f2d5ec.png",
     "static/media/mjuk.png": "/static/media/mjuk.3dc0f90b.png",
     "static/media/noah.JPG": "/static/media/noah.beafc8bd.JPG",
     "static/media/noah_head.jpg": "/static/media/noah_head.5b36d39e.jpg",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.591c3503.js",
     "static/css/2.9e76cc0e.chunk.css",
-    "static/js/2.f99d4fad.chunk.js",
-    "static/css/main.909346df.chunk.css",
-    "static/js/main.2159b05b.chunk.js"
+    "static/js/2.ada42ba3.chunk.js",
+    "static/css/main.23b2edf4.chunk.css",
+    "static/js/main.720a1291.chunk.js"
   ]
 }
